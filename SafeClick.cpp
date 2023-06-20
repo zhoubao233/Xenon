@@ -27,13 +27,13 @@ void SafeClickInit(bool bIsInit)
 	if (!bIsSafeClickEnable)
 	{
 		PlantDetourCall((BYTE *)dwGameDll + 0x54D97F, (BYTE *)(DWORD_PTR)SendAction_interception, 5);
-		TextPrint("|CFFFCD211Xenon|R: SafeClick turned |CFF00FF00On|R.");
+		TextPrint("|CFFFCD211MXGTX|R: SafeClick turned |CFF00FF00On|R.");
 		bIsSafeClickEnable = true;
 	}
 	else
 	{
 		Patch(dwGameDll + 0x54D97F, "\xE8\x4C\x5B\xF7\xFF", 5);
-		TextPrint("|CFFFCD211Xenon|R: SafeClick turned |CFFFF0000Off|R.");
+		TextPrint("|CFFFCD211MXGTX|R: SafeClick turned |CFFFF0000Off|R.");
 		bIsSafeClickEnable = false;
 	}
 }

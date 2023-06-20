@@ -1,17 +1,17 @@
-Xenon - Warcraft III Garena Hack
+MXGTX - Warcraft III Garena Hack
 =====
 
 Things to know:
 - Supports patch 1.26b
 - Compatible with Microsoft Windows XP, Vista, 7, 8 and 8.1
 - Undetect in all versions of Garena Plus
-- Do not use Xenon and any other hack togheter
+- Do not use MXGTX and any other hack togheter
 
 How to use:
-- Simply copy the "Xenon.mix" to your Warcraft III directory.
+- Simply copy the "MXGTX.mix" to your Warcraft III directory.
 Example: "C:\Program Files\Warcraft III"
-- Use "Xenon.ini" to configure the features you want to turn on/off.
-- "Xenon.ini" will be created once you started Warcraft.
+- Use "MXGTX.ini" to configure the features you want to turn on/off.
+- "MXGTX.ini" will be created once you started Warcraft.
 - You have to restart Warcraft for the changes to take effect.
 
 Features:

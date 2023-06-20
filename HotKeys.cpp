@@ -14,21 +14,23 @@ void WINAPI HotKeys()
 		{
 			MapHack(true);
 
-			TextPrint("|CFFFCD211Xenon|R has been loaded successfully.\n"
-			          "     |CFFFF0000F5|R              : Enable / Disable Map Hack\n"
-					  "     |CFFFF0000F6|R              : Toggle Fog of War\n"
-					  "     |CFFFF0000F7|R              : Enable / Disable WoodCutter\n"
-					  "     |CFFFF0000F8|R              : Enable / Disable SafeClick\n"
-			          "     |CFFFF0000Numpad +|R : Camera Distance Zoom In\n"
-			          "     |CFFFF0000Numpad -|R  : Camera Distance Zoom Out\n"
-			          "     |CFFFF0000Numpad *|R  : Camera Distance Set to Default\n"
+			TextPrint("|CFFFCD211MXGTX|R has been loaded successfully.\n\n"
+			          "     |CFFFF0000F5|R             : Enable / Disable Map Hack\n"
+			          "     |CFFFF0000Numpad +|R       : Camera Distance Zoom In\n"
+			          "     |CFFFF0000Numpad -|R       : Camera Distance Zoom Out\n"
+			          "     |CFFFF0000Numpad *|R       : Camera Distance Set to Default\n"
 					  "     |CFFFF0000Tab|R            : Show / Hide Scoreboard (DotA)\n"
-			          "     |CFFFF0000BackSpace|R : Clear Screen", 30.0f);
+			          "     |CFFFF0000BackSpace|R      : Clear Screen", 30.0f);
 
 			bIsShown = true;
 		}
 		else if (!IsInGame() && bIsShown)
 				bIsShown = false;
+
+#define VK_FogOfWar     VK_F6
+		// #define VK_DelayReducer VK_F7
+#define VK_WoodCutter   VK_F7
+#define VK_SafeClick    VK_F8
 
 		if (HotKeyPressed(VK_MapHack))
 		{
@@ -36,7 +38,7 @@ void WINAPI HotKeys()
 			while (HotKeyPressed(VK_MapHack))
 				Sleep(100);
 		}
-
+/*
 		if (HotKeyPressed(VK_FogOfWar))
 		{
 			ToggleFogOfWar();
@@ -70,7 +72,7 @@ void WINAPI HotKeys()
 			while (HotKeyPressed(VK_SafeClick))
 				Sleep(100);
 		}
-
+*/
 		else if (HotKeyPressed(VK_ZoomIn))
 		{
 			CameraDistanceHack(VK_ZoomIn);

@@ -41,7 +41,7 @@ void __declspec(naked) RoshanNotifier()
 	if (!IsInGame())
 		goto Finish;
 
-	TextPrint("|CFFFCD211Xenon|R: |CFFDD8DFFRoshan|R respawned.", 10.0f);
+	TextPrint("|CFFFCD211MXGTX|R: |CFFDD8DFFRoshan|R respawned.", 10.0f);
 	PingMinimapEx(&fRoshanX, &fRoshanY, &fRoshanDuration, 0xDD, 0x8D, 0xFF, false);
 	
 Finish:

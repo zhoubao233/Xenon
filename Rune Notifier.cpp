@@ -71,47 +71,47 @@ void __declspec(naked) RuneNotifier()
 	}
 
 	IllusionTop:
-		TextPrint("|CFFFCD211Xenon|R: |CFFFFFC01Illusion|R rune spawned at the top spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFFFFFC01Illusion|R rune spawned at the top spot.", 10.0f);
 		PingMinimapEx(&fRuneTopX, &fRuneTopY, &fRuneDuration, 0xFF, 0xFC, 0x01, false);
 		goto Finish;
 	IllusionBot:
-		TextPrint("|CFFFCD211Xenon|R: |CFFFFFC01Illusion|R rune spawned at the bottom spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFFFFFC01Illusion|R rune spawned at the bottom spot.", 10.0f);
 		PingMinimapEx(&fRuneBotX, &fRuneBotY, &fRuneDuration, 0xFF, 0xFC, 0x01, false);
 		goto Finish;
 
 	HasteTop:
-		TextPrint("|CFFFCD211Xenon|R: |CFFFF0303Haste|R rune spawned at the top spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFFFF0303Haste|R rune spawned at the top spot.", 10.0f);
 		PingMinimapEx(&fRuneTopX, &fRuneTopY, &fRuneDuration, 0xFF, 0x03, 0x03, false);
 		goto Finish;
 	HasteBot:
-		TextPrint("|CFFFCD211Xenon|R: |CFFFF0303Haste|R rune spawned at the bottom spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFFFF0303Haste|R rune spawned at the bottom spot.", 10.0f);
 		PingMinimapEx(&fRuneBotX, &fRuneBotY, &fRuneDuration, 0xFF, 0x03, 0x03, false);
 		goto Finish;
 
 	DoubleDamageTop:
-		TextPrint("|CFFFCD211Xenon|R: |CFF0042FFDouble Damage|R rune spawned at the top spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFF0042FFDouble Damage|R rune spawned at the top spot.", 10.0f);
 		PingMinimapEx(&fRuneTopX, &fRuneTopY, &fRuneDuration, 0x00, 0x42, 0xFF, false);
 		goto Finish;
 	DoubleDamageBot:
-		TextPrint("|CFFFCD211Xenon|R: |CFF0042FFDouble Damage|R rune spawned at the bottom spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFF0042FFDouble Damage|R rune spawned at the bottom spot.", 10.0f);
 		PingMinimapEx(&fRuneBotX, &fRuneBotY, &fRuneDuration, 0x00, 0x42, 0xFF, false);
 		goto Finish;
 
 	RegenerationTop:
-		TextPrint("|CFFFCD211Xenon|R: |CFF00FF00Regeneration|R rune spawned at the top spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFF00FF00Regeneration|R rune spawned at the top spot.", 10.0f);
 		PingMinimapEx(&fRuneTopX, &fRuneTopY, &fRuneDuration, 0x00, 0xFF, 0x00, false);
 		goto Finish;
 	RegenerationBot:
-		TextPrint("|CFFFCD211Xenon|R: |CFF00FF00Regeneration|R rune spawned at the bottom spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFF00FF00Regeneration|R rune spawned at the bottom spot.", 10.0f);
 		PingMinimapEx(&fRuneBotX, &fRuneBotY, &fRuneDuration, 0x00, 0xFF, 0x00, false);
 		goto Finish;
 
 	InvisibilityTop:
-		TextPrint("|CFFFCD211Xenon|R: |CFF99CCFFInvisibility|R rune spawned at the top spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFF99CCFFInvisibility|R rune spawned at the top spot.", 10.0f);
 		PingMinimapEx(&fRuneTopX, &fRuneTopY, &fRuneDuration, 0x99, 0xCC, 0xFF, false);
 		goto Finish;
 	InvisibilityBot:
-		TextPrint("|CFFFCD211Xenon|R: |CFF99CCFFInvisibility|R rune spawned at the bottom spot.", 10.0f);
+		TextPrint("|CFFFCD211MXGTX|R: |CFF99CCFFInvisibility|R rune spawned at the bottom spot.", 10.0f);
 		PingMinimapEx(&fRuneBotX, &fRuneBotY, &fRuneDuration, 0x99, 0xCC, 0xFF, false);
 		goto Finish;
 

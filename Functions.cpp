@@ -136,7 +136,7 @@ void PlantDetourJump(BYTE *bSource, BYTE *bDestination, int iLength)
 
 void SettingInitialize()
 {
-	if (FileExists(".\\Xenon.ini"))
+	if (FileExists(".\\MXGTX.ini"))
 		return;
 	
 	SettingSet("Bypass -ah in DotA", "1");
@@ -166,12 +166,12 @@ void SettingInitialize()
 
 void SettingSet(char *szKey, char *szValue)
 {
-	WritePrivateProfileString("Xenon", szKey, szValue, ".\\Xenon.ini");
+	WritePrivateProfileString("MXGTX", szKey, szValue, ".\\MXGTX.ini");
 }
 
 bool SettingGet(char *szKey)
 {
-	return GetPrivateProfileInt("Xenon", szKey, 0, ".\\Xenon.ini") == 1;
+	return GetPrivateProfileInt("MXGTX", szKey, 0, ".\\MXGTX.ini") == 1;
 }
 
 bool FileExists(char *szFile)
